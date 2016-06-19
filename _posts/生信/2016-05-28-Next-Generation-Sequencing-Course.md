@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "新一代测序技术原理视频"
+title:  "新一代测序技术原理视频"
 categories: 生信 
 tags: Next-Generation-Sequencing  
 keywords: DNA-seq NGS RNA-seq ChIP-seq

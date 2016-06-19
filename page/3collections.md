@@ -9,13 +9,13 @@ icon: bookmark
 {:toc}
 
 
-## Other blogs
+## 其他博客
 
-* [生信菜鸟团] (http://www.bio-info-trainee.com/)
-
-
+* [生信菜鸟团](http://www.bio-info-trainee.com/)
 
 
-## Comments
+
+
+## 评论
 
 {% include comments.html %}

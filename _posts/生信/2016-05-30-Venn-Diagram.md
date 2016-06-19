@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "韦恩图的简单绘制"
+title:  "韦恩图的简单绘制"
 categories: 生信 
 tags: Venn-Diagram  
 keywords: Venn-Diagram

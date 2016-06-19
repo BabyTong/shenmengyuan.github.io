@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "基因行业探索"
+title:  "基因行业探索"
 categories: 生信 
 tags: Bioinformatics
 keywords: Bioinformatics

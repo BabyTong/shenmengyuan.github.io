@@ -17,7 +17,7 @@ icon: heart
 
 ## 联系我
 
-* GitHub：[Shenmengyuan](https://github.com/shenmengyuan)
+* GitHub：[shenmengyuan](https://github.com/shenmengyuan)
 * email：mengyuanshen@126.com
 * [知乎](https://www.zhihu.com/people/chen-meng-yuan-16)
 
@@ -26,6 +26,6 @@ icon: heart
 
 我们也许在很多地方扮演不同的角色去适应环境，但在这里，一切都由自己控制。在这里有成长磕磕碰碰，有技术的沉淀，有情感的起伏跌宕，当然也有恋爱的喜悦与幸福。
 
-## Comments
+## 评论
 
 {% include comments.html %}

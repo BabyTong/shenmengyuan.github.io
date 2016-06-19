@@ -1,10 +1,8 @@
 ---
 layout: post
-title: "【每日一生信】用perl统计碱基计数及GC含量"
+title:  "【每日一生信】用perl统计碱基计数及GC含量"
 categories: 生信 
 tags: Bioinformatics
-keywords: Bioinformatics
-description: 
 ---
 
 * content
