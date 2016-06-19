@@ -7,7 +7,11 @@ keywords: Bioinformatics
 description: 
 ---
 
+* content
+{:toc}
+
 ###1 写在前面
+
 **统计clean.fa文件的碱基个数和GC%,在此之前我利用别人的代码看了一下clean.fa文件基本信息如下：**
 
 ```
@@ -26,7 +30,9 @@ sys    0m1.421s
 ```
 
 ###2 方法
+
 ####2.1 方法一
+
 ```
 #! /usr/bin/perl
 use strict;
@@ -49,6 +55,7 @@ print "total count is $total \nGC is $GC";
 #sys    0m1.520s
 ```
 ####2.2 方法二
+
 ```
 #! /usr/bin/perl
 use strict;
@@ -72,6 +79,7 @@ print "total count is $total \nGC is $GC";
 #sys    0m1.509s
 ```
 ####2.3 方法三
+
 ```
 #! /usr/bin/perl
 use strict;
@@ -99,7 +107,6 @@ print "total count is $total \nGC is $GC";
 
 ```
 perl -ne  '{$count_A=$count_A+($_=~tr/A//);$count_T=$count_T+($_=~tr/T//);$count_G=$count_G+($_=~tr/G//);$count_C=$count_C+($_=~tr/C//)};END{print qq{total count is },$count_A+$count_T+$count_G+$count_C, qq{\nGC:},($count_G+$count_C)/($count_A+$count_T+$count_G+$count_C),qq{\n} }'  ../4_Removehost/clean.fa
-
 #total count is 2875363107
 #GC:0.430857696888437
  #real    1m16.111s
@@ -107,6 +114,7 @@ perl -ne  '{$count_A=$count_A+($_=~tr/A//);$count_T=$count_T+($_=~tr/T//);$count
 #sys    0m1.371s
 ```
 ###3 写在最后
+
 这是昨天做的小题目，最终还是比较好得完成了任务，不知道怎么写还能再快一些？
 
 
