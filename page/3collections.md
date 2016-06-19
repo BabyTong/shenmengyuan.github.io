@@ -11,7 +11,7 @@ icon: bookmark
 
 ## Other blogs
 
-* [生信菜鸟团] http://www.bio-info-trainee.com/)
+* [生信菜鸟团] (http://www.bio-info-trainee.com/)
 
 
 
