@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 宏基因组学之向前一步
-category: 科研
+title: "宏基因组学之向前一步"
+categories: 科研
 tags: metagenome
 keywords: metagenome
 description: 

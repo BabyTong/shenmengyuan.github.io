@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 写在博一尾声
-category: 生活
+title: "写在博一尾声"
+categories: 生活
 tags: Life 
 keywords: life
 description: 

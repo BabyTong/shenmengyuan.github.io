@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 我的生信学习总结反思
-category: 科研
+title: "我的生信学习总结反思"
+categories: 科研
 tags: Bioinformatics 
 keywords: learn self-examination
 description: 

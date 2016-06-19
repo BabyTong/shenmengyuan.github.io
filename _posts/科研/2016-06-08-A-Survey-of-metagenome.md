@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 宏基因组学之初识
-category: 科研
+title: "宏基因组学之初识"
+categories: 科研
 tags: metagenome
 keywords: metagenome
 description: 

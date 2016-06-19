@@ -1,7 +1,7 @@
 ---
 layout: post
-title: RNA-seq数据分析指南
-category: 科研
+title: "RNA-seq数据分析指南"
+categories: 科研
 tags: RNA-seq
 keywords: RNA-seq
 description: 
