@@ -6,7 +6,11 @@ tags: RNA-seq
 keywords: RNA-seq
 description: 
 ---
-###1 写在前面
+
+* content
+{:toc}
+
+### 1 写在前面
 
 上个月看了一篇2016年RNA-Seq文献综述，那篇文献特别长，花了三四天时间才看完。当时为了做组会文献报告做了一些许总结，以ppt的形式呈现出来。
 	 
@@ -14,9 +18,9 @@ description:
    	<source src="http://o7zaxp1i2.bkt.clouddn.com/%E6%96%87%E7%8C%AE%E6%8A%A5%E5%91%8A-2016-A%20survey%20of%20best%20practices%20for%20RNA-seq%20data%20analysis%20.mp4" type="video/mp4">
    </video>
 
-###2 内容
+### 2 内容
 
-####2.1 前言
+#### 2.1 前言
 
 - 各位同学/老师，大家好，现在由我给大家讲讲我的文献阅读报告！
 
@@ -24,7 +28,7 @@ description:
 
 - 新一代测序技术在爆炸式发展的同时，也衍生出许多其他技术创新。RNA-Seq就是其中之一，这项技术使我们对细胞发育及其调控机制的理解，达到了前所未有的深度和广度。RNA-seq可以获得相当惊人的数据量，而这恰恰是一柄双刃剑。丰富的数据量蕴含着大量的宝贵信息，但这样的数据需要复杂的生物信息学分析，才能从中提取到有意义的结果。正因如此，数据分析可以说是RNA-seq的重中之重。RNA-seq有非常广泛的应用，但没有哪个分析软件是万能的。科学家们一般会根据自己的研究对象和研究目标，采用不同的数据分析策略。现在人们已经发表了大量的RNA-seq和数据分析方案，对于刚入门的新手来说难免有些无所适从。这篇文章概述了RNA-seq生物信息学分析的现行标准和现有资源，为人们提供了一份RNA-seq数据分析指南，可以作为开展RNA-seq研究的宝贵参考资料。这份指南覆盖了RNA-seq数据分析的所有主要步骤，比如质量控制、读段比对、基因和转录本定量、差异性基因表达、功能分析、基因融合检测、eQTL图谱分析等等。研究人员绘制的RNA-seq分析通用路线图(标准Illumina测序)，将主要分析步骤分为前期分析、核心分析和高级分析三类。前期预处理包括实验设计、测序设计和质量控制。核心分析包括转录组图谱分析、差异基因表达和功能分析。高级分析包括可视化、其他RNA-seq技术和数据整合。研究人员在文章中探讨了每个步骤所面临的挑战，也评估了一些数据处理方法的潜力和局限性。此外，他们还介绍了RNA-seq数据与其他数据类型的整合，将基因表达调控与分子生理学和功能基因组学关联起来，这种研究方式如今越来越受到研究者的欢迎。这篇文章在结尾处介绍了一些为转录组领域带来改变的新技术，特别是单细胞RNA-seq和长读段测序技术带来的机遇和挑战。
 
-####2.2 背景
+#### 2.2 背景
 
 **高通量测序平台**
 
@@ -36,7 +40,7 @@ description:
 
 - 这幅图的横轴是年份，纵轴是高通量技术应用的代表性文章的引用量。不同的应用技术用颜色进行分类，数据点的大小跟发表率（引用率/月）成正比。可以看出RNA-Seq测序技术的应用最为广泛。
 
-####2.3 实验设计
+#### 2.3 实验设计
 
 **RNA-seq到底测的是什么？**
 
@@ -72,11 +76,11 @@ description:
 
 - 随着测序单价的下降，目前市场上 RNA-seq 类项目的单样本测序量正在不断提高。以 2G，PE100 测序的表达谱项目为例，其对应的测序量为 20M 条 reads。如果一条长度为 1kbp 的低表达基因的表达量为 RPKM=0.5，其理论上可以检测到的 reads 数为 20×0.5=10。所以低丰度基因的检测，对 RNA-seq 这个技术来说并非最大问题。第二个问题“转录本表达量的高低变化”比“转录本的有无”更具有普遍的生物学意义。虽然个别基因的表达量变化程度，可以使用 Qpcr 来验证。但我们往往也使用所有差异基因来统计某些规律。例如使用差异基因的 pathway 富集分析来寻找与性状相关的 pathway。如果在全局水平的差异基因集并不可靠，那么 pathway富集分析得出的结论的可靠性自然也受到影响。而全局水平的差异基因数量巨大，是难以使用 Qpcr 验证的。因此，定量以及差异分析的准确性是在 RNA-seq 中更值得关心的问题。
 
-####2.4 测序设计
+#### 2.4 测序设计
 
 - RNA-seq文库的制备和测序过程:RNA碎裂，cDNA合成，接头连接，PCR扩增，加标签（多样品混合测序），上泳池测序; 如何减少误差：1. 使用末端带随机核酸的接头或者使用化学碎裂法代替Rnase III碎裂法；2. 不同批次实验或者不同runs. a. 如果样品太多在一个批次或者一个run跑不完，为了避免技术误差造成太大的实验误差，要把样品随机分配到每个批次或runs中;(到底怎么设计，我们要讨论一下！！) b.如果你的样品是多样品混合测序，每个样品要单独加上标签，每个lanes要保证足够的测序深度，为了保证所有的样品在每个lane中都有。如果送给公司去做的话，我们要选择建库水平好些的，并且要求他们这么去做，应该会更好。
 
-####2.5 质量控制
+#### 2.5 质量控制
 
 - 重复数：技术重复（spearman秩相关系数R²>0.9）;生物重复（主成分分析PCA）
 
@@ -84,7 +88,7 @@ description:
 
 - 1. Reads比对后的质量控制(评估比对质量的指标)：比对上的reads占总reads的百分比；2. Reads比对到外显子和参考链上的覆盖度是否一致；比对到基因组序列：多重比对reads？比对到转录组序列：来自未被注释的转录本的reads会丢失； 产生更多的多重比对reads; 转录本被定量以后，应该看一下GC含量和基因长度偏差，确定定量的方法是否适用。
 
-####2.6 转录本分析
+#### 2.6 转录本分析
 
 - 把所有样本的reads混合用于转录本的拼接。二代测序的转录组reads用于拼接还是存在一些问题的，最终拼接结果不太理想。一个转录本的拼接结果会是10~100contigs。三代测序的读长直接可以把一个转录本读完了，完全不需要拼接。
 
@@ -92,18 +96,18 @@ description:
 
 - 提一个问题，有那么多软件到底怎样才是好的，选哪个软件好呢？
 
-####2.7 功能分析
+#### 2.7 功能分析
 
 - 功能分析是标准转录组分析流程的最后一步，分析差异表达基因的分子功能和代谢通路。
 
-####2.8 其他RNA-seq应用
+#### 2.8 其他RNA-seq应用
 
 - 小RNA：1. 小RNA的长度通常在18~34个碱基，包含了miRNAs, short-interfering RNAs (siRNAs)，PIWI-interactingRNAs (piRNAs)以及其他种类的**。2. sRNA-seq libraries are rarely sequenced as deeply as regular RNA-seq libraries because of a lack of complexity, with a typical range of 2–10 million reads.3. 小RNA的数据分析流程跟常规RNA的分析流程不同。4.  miRTools 2.0 , a tool for prediction and profiling of sRNA species, uses by default reads that are 18–30 bases long5. 比对到参考基因组上，比对软件有：Bowtie2 ,STAR , or Burrows-Wheeler Aligner (BWA)  PatMaN and MicroRazerS  map short sequences
 
-####2.9 多种数据整合分析
+#### 2.9 多种数据整合分析
 - 1. Moreover, the combination of RNA-seq and re-sequencing can be used both to remove false positives when inferring fusion genes and to analyze copy number alterations. 2. The statistically significant correlations that were observed, however, accounted for relatively small effects. (DNA methylation) 3. ….4. 一些分析软件：CORNA, MMIA,, MAGIA, and SePIA; 5. 代谢组和转录组数据结合进行通路分析，有一些软件：MassTRIX, Paintomics, VANTED v2, and SteinerNet 
 - 整合多种组学数据还不是很成熟，但是仍有一些软件可以用。
 
-####2.10 展望
+#### 2.10 展望
 
 - RNA-seq技术已经成为转录组分析的标准方法。其相对应的技术和数据分析工具还在不断地发展。对低表达的基因的定量仍是一个等待解决的问题; 三代测序技术，Smart-seq和Smart-seq2应用于转录组测序，所需要的样品量少，并且可以测定单细胞内的RNA表达水平; Pacbio 技术可以直接测得接近全长的转录本，可以有效解决二代测序技术拼接较为零碎以及潜在嵌合拼接的问题；这些新及时目前的瓶颈：价格高（建库价格和测序价格）;（1）需要多种长度的文库；（2）测序通量有限；Pacbio新推出的sequel测序仪，比旧版本测序仪，通量提高了7倍（测序芯片的波导空数量从15万，提升到100万。所以，有望进一步提高Pacbio在转录组denovo中的应用面。
