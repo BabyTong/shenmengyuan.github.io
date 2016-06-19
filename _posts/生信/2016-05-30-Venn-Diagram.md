@@ -2,9 +2,7 @@
 layout: post
 title:  "韦恩图的简单绘制"
 categories: 生信 
-tags: Venn-Diagram  
-keywords: Venn-Diagram
-description: 
+tags: Venn-Diagram   
 ---
 
 * content
@@ -53,3 +51,4 @@ sub = "Leaf_Root_Stem",main.cex = 2,sub.cex = 1)
 ### 3 写在最后
 
 具体的[代码和文件](http://pan.baidu.com/s/1hrINnd6)存放在百度云里，可以下载练习一下。
+
