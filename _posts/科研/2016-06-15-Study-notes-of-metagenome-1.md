@@ -8,8 +8,7 @@ tags: metagenome
 * content
 {:toc}
 
-     紧接着上个星期学习初步认识了宏基因组学的基本概念、了解的宏基因组数据分析方面的软件。我继续深入学习，这里是学习TGAC宏基因组教程的学习笔记。
-[TGAC Metagenomics 2015教程](https://github.com/TGAC/361Division/tree/master/Metagenomics%202015)
+紧接着上个星期学习初步认识了宏基因组学的基本概念、了解的宏基因组数据分析方面的软件。我继续深入学习，这里是学习TGAC宏基因组教程的学习笔记。[TGAC Metagenomics 2015教程](https://github.com/TGAC/361Division/tree/master/Metagenomics%202015)
 
 
 
