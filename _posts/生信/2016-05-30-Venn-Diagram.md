@@ -10,6 +10,10 @@ tags: Venn-Diagram
 
 ![1](http://o7zaxp1i2.bkt.clouddn.com/five.png)
 
+
+
+
+
 ### 写在前面：
  VennDiagram，简称文氏图，又称为韦恩图，是一种非常常用的图示手段，主要用于显示组与组之间重叠的程度
  。R中提供了多个可用于绘制韦恩图的软件包，本文主要是介绍的是VennDiagram包.函数venn.diagram是利用集

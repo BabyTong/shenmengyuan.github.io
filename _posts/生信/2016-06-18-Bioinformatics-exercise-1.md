@@ -9,8 +9,11 @@ tags: Bioinformatics
 {:toc}
 
 ## 1 写在前面
-
 **统计clean.fa文件的碱基个数和GC%,在此之前我利用别人的代码看了一下clean.fa文件基本信息如下：**
+
+
+
+
 
 ```
 #计算其有多少条序列

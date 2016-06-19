@@ -11,12 +11,16 @@ description:
 {:toc}
 
 ### 1 写在前面
-
 上个月看了一篇2016年RNA-Seq文献综述，那篇文献特别长，花了三四天时间才看完。当时为了做组会文献报告做了一些许总结，以ppt的形式呈现出来。
 	 
+
+
+
+
 <video  controls>
    	<source src="http://o7zaxp1i2.bkt.clouddn.com/%E6%96%87%E7%8C%AE%E6%8A%A5%E5%91%8A-2016-A%20survey%20of%20best%20practices%20for%20RNA-seq%20data%20analysis%20.mp4" type="video/mp4">
    </video>
+
 
 ### 2 内容
 
