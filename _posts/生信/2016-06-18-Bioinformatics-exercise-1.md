@@ -8,7 +8,6 @@ tags: Bioinformatics
 * content
 {:toc}
 
-## 1 写在前面
 **统计clean.fa文件的碱基个数和GC%,在此之前我利用别人的代码看了一下clean.fa文件基本信息如下：**
 
 
@@ -30,9 +29,9 @@ user    0m35.819s
 sys    0m1.421s
 ```
 
-## 2 方法
+## 方法
 
-### 2.1 方法一
+### 方法一
 
 ```
 #! /usr/bin/perl
@@ -56,7 +55,7 @@ print "total count is $total \nGC is $GC";
 #sys    0m1.520s
 ```
 
-### 2.2 方法二
+### 方法二
 
 ```
 #! /usr/bin/perl
@@ -81,7 +80,7 @@ print "total count is $total \nGC is $GC";
 #sys    0m1.509s
 ```
 
-### 2.3 方法三
+### 方法三
 
 ```
 #! /usr/bin/perl
@@ -105,7 +104,7 @@ print "total count is $total \nGC is $GC";
 #sys    0m1.564s
 ```
 
-### 2.4 方法四
+### 方法四
 
 将上面最快的方法二写成一行perl代码，方便使用。
 
@@ -118,7 +117,7 @@ perl -ne  '{$count_A=$count_A+($_=~tr/A//);$count_T=$count_T+($_=~tr/T//);$count
 #sys    0m1.371s
 ```
 
-## 3 写在最后
+## 写在最后
 
 这是昨天做的小题目，最终还是比较好得完成了任务，不知道怎么写还能再快一些？
 

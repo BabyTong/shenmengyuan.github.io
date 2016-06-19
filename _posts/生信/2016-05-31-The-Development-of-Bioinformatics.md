@@ -8,7 +8,6 @@ tags: Bioinformatics
 * content
 {:toc}
 
-### 写在前面
      上午看了一份基因行业报告，做了一些摘抄和思考。
 
 
