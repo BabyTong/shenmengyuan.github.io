@@ -9,7 +9,7 @@
 title: 沈梦圆的博客
 brief-intro: 不争，不显，不露。
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://github.com/shenmengyuan/" # the base hostname & protocol for your site
+url: "http://shemy.site/" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
 
