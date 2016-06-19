@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: shemy
-brief-intro: 贫亦乐，福亦乐，甜亦乐，苦亦乐，不争，不显，不露。
+title: 沈梦圆的博客
+brief-intro: 不争，不显，不露。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/shenmengyuan/" # the base hostname & protocol for your site
 
