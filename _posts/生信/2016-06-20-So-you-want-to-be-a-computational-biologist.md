@@ -14,8 +14,11 @@ tags: Bioinformatics
 技能和新的专业术语(Box 1)。无论你是学生、教授还是介于两者之间，如果你发现计算分析对于你的研究越来
 越很重要，以下的建议会对你成为一名计算生物学家挺重要的。
 
-![1](http://o7zaxp1i2.bkt.clouddn.com/box1.png)
 
+
+
+
+![1](http://o7zaxp1i2.bkt.clouddn.com/box1.png)
 
 #### **1. 明确目标、选择适合的方法**
 
