@@ -14,7 +14,7 @@ tags: Bioinformatics
 计算生物学家包含几个不同的角色，数据分析者，数据收集者1，数据库开发者，统计学家，数学建模者，生物
 信息学家，软件开发者，存在论者等。计算机是现代生物学研究所必需的工具，科学家们要求掌握新的计算生物
 技能和新的专业术语(Box 1)。无论你是学生、教授还是介于两者之间，如果你发现计算分析对于你的研究越来
-越很重要，以下的建议会对你成为一名计算生物学家挺重要的。现我将十条建议翻译如下，如你感兴趣可看原文[http://www.cbcb.umd.edu/~sridhar/Docs/Loman-CompBiol.pdf]?(http://www.cbcb.umd.edu/~sridhar/Docs/Loman-CompBiol.pdf)。
+越很重要，以下的建议会对你成为一名计算生物学家挺重要的。现我将十条建议翻译如下，如你感兴趣可看原文[http://www.cbcb.umd.edu/~sridhar/Docs/Loman-CompBiol.pdf](http://www.cbcb.umd.edu/~sridhar/Docs/Loman-CompBiol.pdf)。
 
 
 
