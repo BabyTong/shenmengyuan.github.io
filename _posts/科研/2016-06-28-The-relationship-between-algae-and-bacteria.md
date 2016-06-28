@@ -2,8 +2,8 @@
 layout: post
 title: "【笔记】“蓝藻水华与微生物相互作用的生物学和生态学机制”研讨会"
 categories: 科研
-tags: cyanobacterial-bloom
-keywords: cyanobacterial-bloom
+tags: algae-bloom
+keywords: algae-bloom
 description: 
 ---
 
