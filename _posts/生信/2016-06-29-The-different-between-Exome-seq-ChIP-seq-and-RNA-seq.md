@@ -8,7 +8,7 @@ tags: Bioinformatics
 * content
 {:toc}
 
-全外显子测序是啥？转录组测序是啥？转录组测序又是啥？他们之间有什么差别么？傻傻分不清，不用怕，多学习就会了，下面让我们一起来看看！
+全外显子测序是啥？转录组测序是啥？转录组测序又是啥？他们之间有什么差别么？傻傻分不清，不用怕，多学习下就会了，下面让我们一起来看看！
 
 
 
@@ -50,5 +50,7 @@ tags: Bioinformatics
 
 ### 4 参考资料
 1 绝大部分来自健明师兄口诉；
+
 2 [【你问我答】外显子测序篇](http://mp.weixin.qq.com/s?__biz=MzA5NjA0ODgxNQ==&mid=2652647044&idx=1&sn=4da112147545b556d81b05f61711eb91&scene=1&srcid=0628EH9SshJfS7HEi2R0FQlo&from=singlemessage&isappinstalled=0#wechat_redirect)
+
 3 [高通量基因组测序中，什么是测序深度和覆盖度？](http://blog.sina.com.cn/s/blog_80d2d9fd0100x4la.html)
