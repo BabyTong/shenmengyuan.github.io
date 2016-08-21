@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "你想成为计算生物学家么？"
+title:  "基因组的拼接原理？"
 categories: 生信 
-tags: Bioinformatics
+tags: de_novo_assembly
 ---
 
 * content
@@ -13,7 +13,7 @@ tags: Bioinformatics
  因组拼接工作，也可以学习一下几个主流拼接软件的算法和原理。我主要是学习了两个网上教程，其教程出处为[https://github.com/
  TGAC/361Division/tree/master/de_novo_2016](https://github.com/TGAC/361Division/tree/master/de_novo_2016)和[https://github.com/
  lexnederbragt/INF-BIO9120_fall2013_de_novo_assembly/tree/master/presentations](https://github.com/lexnederbragt/INF-
- BIO9120_fall2013_de_novo_assembly/tree/master/presentations)
+ BIO9120_fall2013_de_novo_assembly/tree/master/presentations)。
 
 
 
@@ -29,6 +29,7 @@ A hierarchical data structure that maps the sequence data to a putative reconstr
 基因组拼接可以类比成一本书被碎纸机碎个稀巴烂，然后用胶水把他们一片片给拼回去的过程。
 ![3](http://o7zaxp1i2.bkt.clouddn.com/56e304b2-6f8c-4114-9b10-a166991a8b15.jpg)
 ![4](http://o7zaxp1i2.bkt.clouddn.com/b63deb18-bd51-4717-8067-18bb69917d5a.png)
+
 - 拼接的过程就像一个黑箱处理过程，reads序列输入，经过拼接黑盒，输出就是基因组拼接好的结果。正确的拼接应该是The right motifs,the 
 correct number of times,in correct order and position。我个人认为是尽可能得还原真实的基因组是拼接的终极目的。
 
@@ -46,11 +47,14 @@ data，并且要大概知道拼接的原理。最后完成拼接后，要检查�
 
 ### 拼接算法
 **None of which is assessed by length stats.**   
-- Overlap Layout 
-Consensus：找到重叠区域并且定义他们是key。layout有点难度。这种方法tracks每一条read。Consensus是由reads构建而成的。
+
+- Overlap Layout Consensus
+找到重叠区域并且定义他们是key。layout有点难度。这种方法tracks每一条read。Consensus是由reads构建而成的。
 ![7](http://o7zaxp1i2.bkt.clouddn.com/e1b85e2e-e4c9-4b53-97f4-bc44e78a8c3b.jpg)
+
 - De Bruijn Graphs
 ![8](http://o7zaxp1i2.bkt.clouddn.com/8e943760-826e-4ae1-9da3-6e05455e30b9.png)
+
 - OLC VS DE bruijn
 ![9](http://o7zaxp1i2.bkt.clouddn.com/a054ef5b-88ea-43d0-ba19-34b420cd5fcb.png)
 ![10](http://o7zaxp1i2.bkt.clouddn.com/ea1ed047-348a-4e85-8559-ee1aefae3535.png)
