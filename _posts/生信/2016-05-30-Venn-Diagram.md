@@ -2,7 +2,7 @@
 layout: post
 title:  "韦恩图的简单绘制"
 categories: 生信 
-tags: Venn-Diagram   
+tags: 韦恩图   
 ---
 
 * content

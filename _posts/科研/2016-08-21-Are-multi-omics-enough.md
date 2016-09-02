@@ -3,7 +3,7 @@ layout: post
 title: "研究微生物，只靠多组学根本不够！"
 categories: 科研
 tags: multi-omics
-keywords: multi-omics
+keywords: 多组学 宏基因组
 description: 
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title:  "【每日一生信】用perl统计碱基计数及GC含量"
 categories: 生信 
-tags: Bioinformatics
+tags: 碱基计数 GC含量 perl
 ---
 
 * content

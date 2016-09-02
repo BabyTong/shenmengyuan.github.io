@@ -2,7 +2,7 @@
 layout: post
 title:  "基因行业探索"
 categories: 生信 
-tags: Bioinformatics
+tags: 行业
 ---
 
 * content

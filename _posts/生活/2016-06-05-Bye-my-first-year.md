@@ -2,9 +2,9 @@
 layout: post
 title: "写在博一尾声"
 categories: 生活
-tags: Life 
-keywords: life
-description: 
+tags:  生活
+keywords:  生活
+description: 科研生活
 ---
 
 * content

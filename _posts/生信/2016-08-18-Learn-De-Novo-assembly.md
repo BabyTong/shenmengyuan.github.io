@@ -2,7 +2,7 @@
 layout: post
 title:  "【笔记】基因组的拼接原理"
 categories: 生信 
-tags: de_novo_assembly 拼接原理
+tags: 拼接原理
 ---
 
 * content

@@ -2,9 +2,9 @@
 layout: post
 title: "【笔记】如何查阅文献"
 categories: 科研
-tags: literature-query
-keywords: literature-query
-description: 
+tags: 文献
+keywords: literature-query 查阅文献
+description: 如何查阅文献
 ---
 
 * content

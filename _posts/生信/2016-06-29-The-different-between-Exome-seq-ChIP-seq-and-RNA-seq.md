@@ -2,7 +2,7 @@
 layout: post
 title:  "Exome-seq、ChIP-seq、RNA-seq之间的差异"
 categories: 生信 
-tags: Bioinformatics
+tags: Exome-seq ChIP-seq RNA-seq
 ---
 
 * content

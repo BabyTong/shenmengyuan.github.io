@@ -4,7 +4,7 @@ title: "RNA-seq数据分析指南"
 categories: 科研
 tags: RNA-seq
 keywords: RNA-seq
-description: 
+description: RNA-seq数据分析指南
 ---
 
 * content

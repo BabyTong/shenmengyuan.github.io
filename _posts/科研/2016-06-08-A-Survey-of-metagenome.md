@@ -2,9 +2,9 @@
 layout: post
 title: "宏基因组学之初识"
 categories: 科研
-tags: metagenome
-keywords: metagenome
-description: 
+tags: 宏基因组
+keywords: metagenome 宏基因组
+description: 宏基因组学之初识
 ---
 
 * content

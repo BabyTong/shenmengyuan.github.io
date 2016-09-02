@@ -2,7 +2,7 @@
 layout: post
 title:  "你想成为计算生物学家么？"
 categories: 生信 
-tags: Bioinformatics
+tags: 计算生物学
 ---
 
 * content
