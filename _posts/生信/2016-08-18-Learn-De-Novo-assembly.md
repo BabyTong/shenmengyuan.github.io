@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "【学习笔记】基因组的拼接原理"
+title:  "【笔记】基因组的拼接原理"
 categories: 生信 
-tags: de_novo_assembly
+tags: de_novo_assembly 拼接原理
 ---
 
 * content
