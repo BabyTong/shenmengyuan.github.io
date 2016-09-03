@@ -2,7 +2,7 @@
 layout: post
 title:  "师兄和他的生信故事"
 categories: 生信 
-tags: 师兄 工作 生信 成长
+tags: 工作 生信 成长
 ---
 
 * content
