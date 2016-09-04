@@ -8,7 +8,6 @@ tags: 拼接原理
 * content
 {:toc}
 
-
  最近学习了一下基因组的拼接原理，以下是我的学习笔记和一些思考。基因组的拼接原理是高通量测序技术的基础知识吧，我个人认为即使不做基
  因组拼接工作，也可以学习一下几个主流拼接软件的算法和原理。我主要是学习了两个网上教程，其教程出处为[https://github.com/
  TGAC/361Division/tree/master/de_novo_2016](https://github.com/TGAC/361Division/tree/master/de_novo_2016)和[https://github.com/
