@@ -28,6 +28,7 @@ EndNote的大名，早有耳闻，但是一直没有用过。别问我本科论�
 -  建议只建一个数据库，方便定期备份（备份需要同时备份后缀是.enl和.Data这两个文件）和管理。如果你同时有多个项目，其实只需要在一个数据库里面建多个Group Set即可，然后再在每个Group Set下面多建几个Group。
 
 ![2](http://o7zaxp1i2.bkt.clouddn.com/cc0aa675-ff9b-47bf-9f80-a4f784c4e403.png)
+
 ![3](http://o7zaxp1i2.bkt.clouddn.com/a878834c-1cc1-4de4-8705-ee1cff0ad9c1.png)
 
 - 创建一个账号，善用EndNoted的ipad版本，实现多平台同步。个人不太喜欢用ipad看，字太小。
