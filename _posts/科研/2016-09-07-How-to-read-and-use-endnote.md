@@ -2,7 +2,7 @@
 layout: post
 title: "EndNote的使用和我的文献阅读方法"
 categories: 科研
-tags: multi-omics
+tags: 文献管理 文献阅读
 keywords: 文献管理 文献阅读
 description: 
 ---
