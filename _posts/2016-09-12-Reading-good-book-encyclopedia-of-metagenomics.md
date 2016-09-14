@@ -17,7 +17,7 @@ description:
 
 
 
-[1](http://o7zaxp1i2.bkt.clouddn.com/85d5476804daf660839428111c5c6b7e.png)
-[1](http://o7zaxp1i2.bkt.clouddn.com/2016-09-12_193607.png)
-[3](http://o7zaxp1i2.bkt.clouddn.com/bdf97b0fc66470a943963eb0ce68e0a1.png)
-[4](http://o7zaxp1i2.bkt.clouddn.com/2016-09-12_195629.png)
+![1](http://o7zaxp1i2.bkt.clouddn.com/85d5476804daf660839428111c5c6b7e.png)
+![2](http://o7zaxp1i2.bkt.clouddn.com/2016-09-12_193607.png)
+![3](http://o7zaxp1i2.bkt.clouddn.com/bdf97b0fc66470a943963eb0ce68e0a1.png)
+![4](http://o7zaxp1i2.bkt.clouddn.com/2016-09-12_195629.png)
