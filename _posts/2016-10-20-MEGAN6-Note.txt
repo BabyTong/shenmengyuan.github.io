@@ -12,6 +12,12 @@ description:
 
 最近在捣鼓宏基因组数据分类注释工作，一直在倒腾这个软件，中文资料很少，可能大家都觉得太好用了......确实也不难，个人感觉就是参数设置要多花时间研究研究。
 
+
+
+
+
+
+
 ### MEGAN的自我介绍
 ![1](http://o7zaxp1i2.bkt.clouddn.com/978c052e-cddd-479d-8e13-5fade482b942.png)
 Pasted from: http://ab.inf.uni-tuebingen.de/software/megan6/
