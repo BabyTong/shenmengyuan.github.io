@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "宏基因组学百科全书"
+title: "【转载】高通量数据处理的一些经验和建议"
 categories: 科研
-tags: 宏基因组学 
-keywords: 宏基因组学 
+tags: 经验 
+keywords: 经验 
 description: 
 ---
 
