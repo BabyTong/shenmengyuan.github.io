@@ -19,7 +19,9 @@ description:
 ### 课程网址及作者博客：
 
 [https://2016-metagenomics-sio.readthedocs.io/en/latest/](https://2016-metagenomics-sio.readthedocs.io/en/latest/)
+
 [http://ivory.idyll.org/blog/2016-metagenomics-workshop-at-sio.html](http://ivory.idyll.org/blog/2016-metagenomics-workshop-at-sio.html)
+
 ![1](http://o7zaxp1i2.bkt.clouddn.com/95d7091.jpg)
 
 ### 教程内的视频和讲义分享
