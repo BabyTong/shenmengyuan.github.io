@@ -13,14 +13,15 @@ icon: heart
 在校硕士研究生一枚，就读于中国科学院水生生物研究所水生生物学专业。
 
 我呢，93年的白羊座，性格开朗，资深宅女。
-![1](http://o7zaxp1i2.bkt.clouddn.com/%E6%AF%95%E4%B8%9A%E7%85%A7.png)
+![1](http://o7zaxp1i2.bkt.clouddn.com/735413627512948233.jpg)
 
 ## 联系我
 
 * GitHub：[shenmengyuan](https://github.com/shenmengyuan)
 * email：mengyuanshen@126.com
 * [知乎](https://www.zhihu.com/people/chen-meng-yuan-16)
-
+* 微信公众号：
+![2](http://o7zaxp1i2.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20161113201322.png)
 
 ## 关于本站
 
