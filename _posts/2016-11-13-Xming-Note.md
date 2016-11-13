@@ -24,6 +24,7 @@ description:
 ![1](http://o7zaxp1i2.bkt.clouddn.com/c138c5ee-5a14-4529-8f44-aaa327dc2a4d.png)
 
 - 3.打开Xming
+
 ![2](http://o7zaxp1i2.bkt.clouddn.com/e7b515ae-c79a-4a4e-acd6-28b2ad384fa3.jpg)
 
 - 4.在模拟终端输入指令
