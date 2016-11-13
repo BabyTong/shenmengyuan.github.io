@@ -21,6 +21,7 @@ description:
 
 - 1.下载Xming，默认安装即可，不需要额外的参数设置。
 - 2.在自己的安全终端模拟器xshell、putty、SecureCRT上打开X11转移协议。（这是关键步骤，去年在这个步骤磕了一个星期~）
+
 ![1](http://o7zaxp1i2.bkt.clouddn.com/c138c5ee-5a14-4529-8f44-aaa327dc2a4d.png)
 
 - 3.打开Xming
