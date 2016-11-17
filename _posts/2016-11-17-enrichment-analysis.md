@@ -48,7 +48,9 @@ description:
 
 ### 差异基因分析
 在利用数据比较分析两个样品中同一个基因是否存在差异表达的时候，一般选取两个标准：
+
 ##### i）FoldChange
+
 FoldChange，就是两样品中同一个基因表达水平的变化倍数。可以用RPKM、FPKM或TPM值来计算。实验组和正常组的表达值的差异倍数，是用于检测差异表达基因的最基本的方法，由于其简单，易理解和不错的实验结果，使得其成为差异表达直观分析的首要选择。整体而言，Fold Change 方法在探测差异表达基因时，能够直接的得到差异变化值，因此在与差异表达绝对值相关的研究时具有优势。但是其较难选定其所需的阈值，在缺少假阳性的控制的情况下，其检测的基因假阳性结果比率相对较高。
 
 ##### ii）FDR校正后的p值，即q值
@@ -73,8 +75,13 @@ FDR（假阳性率：false positive rate）错误控制法是Benjamini于1995年
 每个基因在分组sample的差异度量，根据差异度量对所有基因进行排序，根据特定的gene set （感兴趣的基因集）来计算ES score。得到一条背景gene和ES score的曲线，最大值设置为该通路的ES score。将所有样本基因打乱，进行根据1000次的permutation来对计算NE Score和nominal的p值（看一个数值是否属于一个分布），再来计算FDR值。
 
 ### 参考资料
+
 [http://www.biomart.cn/specials/gminix/article/145461](http://www.biomart.cn/specials/gminix/article/145461)
+
 [http://blog.sina.com.cn/s/blog_670445240101m4z3.html](http://blog.sina.com.cn/s/blog_670445240101m4z3.html)
+
 [https://guangchuangyu.github.io/cn/2012/04/enrichment-analysis/](https://guangchuangyu.github.io/cn/2012/04/enrichment-analysis/)
+
 [http://www.chenlianfu.com/?p=1122](http://www.chenlianfu.com/?p=1122)
+
 [http://fhqdddddd.blog.163.com/blog/static/1869915420169212398814](http://fhqdddddd.blog.163.com/blog/static/1869915420169212398814)
