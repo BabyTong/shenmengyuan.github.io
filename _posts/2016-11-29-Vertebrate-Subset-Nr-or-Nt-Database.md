@@ -11,7 +11,7 @@ description:
 {:toc}
 
 
-月初的时候我就在研究这件事，在我坚持不懈的寻找下，终于在github上找到了跟我有一样想法的现成代码啦！但是拥有跟前辈一样的思考思路，我还是挺开心的。从Nr库中任意提取各分类水平的子库，比如蓝藻库啊，真核藻库啊，病毒库啊，细菌库啊~而且还可以进行完整基因组的下载等等~/nr库）中。为什么想要从nt/nr库中分离细菌和古细菌呢，因为解压缩后的nt/nr库实在是太大了，里面包含了所有生物的已知基因。如果研究的对象仅仅使细菌或者使古细菌，那么将这些未知物种的基因组拿到庞大的参考库中比对，是非常耗费时间的。（NCBI上有病毒单独的参考基因库，师兄说以前细菌也是单独有的。）
+月初的时候我就在研究这件事，在我坚持不懈的寻找下，终于在github上找到了跟我有一样想法的现成代码啦！但是拥有跟前辈一样的思考思路，我还是挺开心的。从Nr库中任意提取各分类水平的子库，比如蓝藻库啊，真核藻库啊，病毒库啊，细菌库啊~而且还可以进行完整基因组的下载等等~
 
 
 
@@ -50,6 +50,7 @@ CREATE INDEX taxid_idx_on_accvers_taxid ON acc_taxid(taxid); # 单列索引
 # CREATE INDEX语句创建索引，它允许命名索引，指定表及要索引的一列或多列，并指示索引是升序排列还是降序排列。
 .exit
 ```
+
 ![1](http://o7zaxp1i2.bkt.clouddn.com/26a9e8d0-79c7-4a1b-b32a-a0d76e7e9ac1.png)
  
 在进行下一步之前将assembly_summary_refseq.txt处理成以上格式；
@@ -69,6 +70,7 @@ sqlite3 ncbi_taxonomy.db
 SELECT taxid FROM tree WHERE name = "Acidobacterium capsulatum";
 .exit
 ```
+
 检验成功啦~~
 ![4](http://o7zaxp1i2.bkt.clouddn.com/b548804f-e476-4a0b-9dfd-f8985f092442.png)
  
@@ -114,11 +116,13 @@ chmod +x setup_taxomias.py taxomias.py
 ### 测试
 
 - 从NR库中分出微囊藻属的非冗余蛋白acc号列表
+
 ```
 ## 下载Nr库
 wget ftp://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/nr.gz
 gzip -d nr.gz
 ```
+
 ```
 # 打开python运行以下代码：
 #载入所需要的包
@@ -135,20 +139,23 @@ acc.write('\n'.join(wanted))
 - 从fasta文件中提取id列表中对应的序列
 
 可以自己编写脚本，我采用现成的工具：
+
 ```
 wget -c http://hgdownload.cse.ucsc.edu/admin/exe/linux.x86_64/faSomeRecords
 chmod +x faSomeRecords
 faSomeRecords /home/shenmy/Metavirome/RefSeq/nr nr_Microcystis_acc_list.txt nr_Microcystis.fa
 ```
+
 ```
 [shenmy@localhost taxomias]$ cat nr_Microcystis_acc_list_sort.txt |wc -l
 180517
 [shenmy@localhost taxomias]$ grep ">" nr_Microcystis.fa|wc -l
 90165
 ## 条数不符合哎~
-
 ```
+
 - 从nr库中分离Synechocystis sp. PCC 6803的非冗余蛋白
+
 ```
 import sqlite3, taxomias
 taxomias.TaxidByName("Synechocystis sp. PCC 6803")
