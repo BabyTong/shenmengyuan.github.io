@@ -19,4 +19,9 @@ description:
 
 ### 我的实验记录例子
 
-![2](http://o7zaxp1i2.bkt.clouddn.com/%E3%80%90%E6%AF%8F%E6%97%A5%E4%B8%80%E7%94%9F%E4%BF%A1%E3%80%91%E7%94%B2%E5%9F%BA%E5%8C%96%E9%A1%B9%E7%9B%AE%E8%BF%9B%E8%A1%8C%E4%B8%AD.png)
+![2](http://o7zaxp1i2.bkt.clouddn.com/0001.jpg)
+![3](http://o7zaxp1i2.bkt.clouddn.com/0002.jpg)
+![4](http://o7zaxp1i2.bkt.clouddn.com/0003.jpg)
+![5](http://o7zaxp1i2.bkt.clouddn.com/0004.jpg)
+![6](http://o7zaxp1i2.bkt.clouddn.com/0005.jpg)
+![7](http://o7zaxp1i2.bkt.clouddn.com/0006.jpg)
