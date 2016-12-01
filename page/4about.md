@@ -21,7 +21,10 @@ icon: heart
 * email：mengyuanshen@126.com
 * [知乎](https://www.zhihu.com/people/chen-meng-yuan-16)
 * 微信公众号：
-![2](http://o7zaxp1i2.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20161113201322.png)
+![2](http://o7zaxp1i2.bkt.clouddn.com/QQ%E6%88%AA%E5%9B%BE20161113201332.png)
+
+## 捐赠我
+![3](http://o7zaxp1i2.bkt.clouddn.com/500024503627701095.jpg)
 
 ## 关于本站
 
