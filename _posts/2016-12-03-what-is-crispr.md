@@ -43,7 +43,6 @@ CRISPR基因编辑技术在生物研究领域已成热门，无论是否使用�
 ![3](http://o7zaxp1i2.bkt.clouddn.com/5a7ee53d-8e38-4a7d-bf13-af8b1f730e3a.jpg)
 ![4](http://o7zaxp1i2.bkt.clouddn.com/2016-12-03_183225.png)
 
-
 ### CRISPR功能实现的三个阶段
 
 用学过的抗原抗体免疫通俗的比喻CRISPR系统：
