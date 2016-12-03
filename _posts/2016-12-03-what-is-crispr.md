@@ -70,6 +70,8 @@ In type I systems, target binding by the surveillance complex results in Cas3-me
 
 **以上三个步骤具体细节我还不太理解，但是大体的作用机制已经了解了。**
 
+### 再来看视频
+
 这里还有个视频，感兴趣的再看看，我是看了好多次。
 
 <video  width="320" height="240" controls>
