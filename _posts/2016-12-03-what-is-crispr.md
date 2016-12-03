@@ -20,7 +20,7 @@ CRISPR基因编辑技术在生物研究领域已成热门，无论是否使用�
 ### 先来看视频
 
 这位小哥讲得非常生动、清楚，我反反复复看得五六遍。
-<video  controls>
+<video  width=50% height=50% controls>
    	<source src="http://o7zaxp1i2.bkt.clouddn.com/What%20is%20CRISPR.mp4" type="video/mp4">
    </video>
 
@@ -88,7 +88,7 @@ In type I systems, target binding by the surveillance complex results in Cas3-me
 
 这里还有个视频，感兴趣的再看看，我是看了好多次。
 
-<video  controls>
+<video  width="320" height="240" controls>
    	<source src="http://o7zaxp1i2.bkt.clouddn.com/Genome%20Editing%20with%20CRISPR-Cas9.mp4" type="video/mp4">
    </video>
 
