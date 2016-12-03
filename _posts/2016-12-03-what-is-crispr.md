@@ -41,21 +41,6 @@ CRISPR基因编辑技术在生物研究领域已成热门，无论是否使用�
 
 以下图片来自中科院微生物所向华老师的《古菌遗传与分子生物学》课程课件。就像课件里所说的，了解一个领域的科学史，理解每个突破性发现的背景，对于启迪科学研究具有重要意义。从以下几张片子里我不光对CRISPR-Cas的研究历史有了清晰地了解，而且更大的收获是严谨的科学态度，假如我从事一个领域的研究，也应当像这位老师一样对自己领域的前世今生有着透彻地认知。
 ![3](http://o7zaxp1i2.bkt.clouddn.com/5a7ee53d-8e38-4a7d-bf13-af8b1f730e3a.jpg)
-![4](http://o7zaxp1i2.bkt.clouddn.com/0009.jpg)
-![5](http://o7zaxp1i2.bkt.clouddn.com/0011.jpg)
-![6](http://o7zaxp1i2.bkt.clouddn.com/0012.jpg)
-![7](http://o7zaxp1i2.bkt.clouddn.com/0013.jpg)
-![8](http://o7zaxp1i2.bkt.clouddn.com/0014.jpg)
-![9](http://o7zaxp1i2.bkt.clouddn.com/0015.jpg)
-![10](http://o7zaxp1i2.bkt.clouddn.com/0016.jpg)
-![11](http://o7zaxp1i2.bkt.clouddn.com/0017.jpg)
-![12](http://o7zaxp1i2.bkt.clouddn.com/0018.jpg)
-![13](http://o7zaxp1i2.bkt.clouddn.com/0019.jpg)
-![14](http://o7zaxp1i2.bkt.clouddn.com/0020.jpg)
-
-
-
-
 
 
 
@@ -69,15 +54,18 @@ CRISPR基因编辑技术在生物研究领域已成热门，无论是否使用�
 
 ![16](http://o7zaxp1i2.bkt.clouddn.com/7c1c4209-9463-4781-ace4-204be2a94188.jpg)
 
-- 第一个阶段：外源性DNA的采集（Foreign DNA Acquisition）
+#### 第一个阶段：外源性DNA的采集（Foreign DNA Acquisition）
+
 当噬菌体病毒侵入宿主细菌后，病毒dsDNA被注入细胞中。此时，Cas1/2蛋白可识别外源DNA原间隔序列临近基序（PAM，通常由NGG三个碱基构成，N为任意碱基），并将原间隔序列（protospacer）剪切下来。之后Protospacer可插入到CRISPR序列前导区的下游中，完成外源DNA的捕获。
 
-- 第二阶段：crRNA的合成（crRNA biogenesis）在I型和III型系统中，初始CRISPR转录产物（Pre-crRNA）会被CRISPR特异性核酸内切酶（Cas6 / Cas5d）在重复序列位点内切割形成成熟的crRNA。在II型系统中，Pre-crRNA可通过重复序列与其互补序列transacting RNA（trancrRNA）反式结合，然后在Cas9存在的情况下被RNaseIII加工融合成一个sgRNA。目前，II型系统是最成熟也是应用最广的类型，而Cas9已经变成了在多种细胞类型和组织中靶向基因编辑的强大工具。
+#### 第二阶段：crRNA的合成（crRNA biogenesis）
+在I型和III型系统中，初始CRISPR转录产物（Pre-crRNA）会被CRISPR特异性核酸内切酶（Cas6 / Cas5d）在重复序列位点内切割形成成熟的crRNA。在II型系统中，Pre-crRNA可通过重复序列与其互补序列transacting RNA（trancrRNA）反式结合，然后在Cas9存在的情况下被RNaseIII加工融合成一个sgRNA。目前，II型系统是最成熟也是应用最广的类型，而Cas9已经变成了在多种细胞类型和组织中靶向基因编辑的强大工具。
 
-- 第三阶段：靶向干扰（Target interference）
+#### 第三阶段：靶向干扰（Target interference）
+
 I型和II型系统均可靶向含有与PAM和protospacer互补序列的dsDNA底物。不同的是，在I型系统中，通过含有多个亚型的复合物结合到dsDNA，并招募反式核酸酶Cas3对DNA进行靶向干扰。在II型系统中，则通过Cas9蛋白的HNH酶活性剪切crRNA互补的DNA链及其RuvC活性位点剪切非互补链，促使dsDNA断裂。类似于I型系统，III型系统也同样依赖于具有核酸酶活性的多亚基复合物对靶向DNA进行干扰，但不同于I型和II型系统，III型系统不依赖于PAM进行靶标位点的识别，而是通过碱基互补配对来识别靶序列并进行DNA的裂解。
 
-- Closing the Loop
+#### Closing the Loop
 
 In type I systems, target binding by the surveillance complex results in Cas3-mediated target degradation (direct interference直接干预) or primed acquisition, which involves crRNAguided recruitment of Cas3, Cas1, and Cas2 to foreign DNA and results in rapid acquisition of new spacers into the CRISPR (Datsenko et al., 2012; Sorek et al., 2013). While primed acquisition has not yet been observed in type II systems, Cas9 is required for proper protospacer selection, suggesting a functional link between the target interference and foreign DNA acquisition (Heler et al., 2015; Wei et al., 2015). Recently, diverse viral-encoded genes that produce proteins known as anti-CRISPRs have been shown to subvert CRISPR systems by interfering with each of the different stages (Bondy-Denomy et al., 2015).
 
