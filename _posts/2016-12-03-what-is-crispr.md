@@ -25,7 +25,7 @@ video{
     width:50%;
     height:auto;
 }
-<video  width="320" height="240" controls>
+<video controls>
    	<source src="http://o7zaxp1i2.bkt.clouddn.com/What%20is%20CRISPR.mp4" type="video/mp4">
    </video>
 
