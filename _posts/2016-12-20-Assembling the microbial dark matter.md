@@ -11,10 +11,7 @@ description:
 {:toc}
 
 
-
 《Assembling the microbial dark matter》是比勒费尔德大学一位博士的毕业论文，该博士论文主要利用单细胞测序技术、宏基因组和宏转录组学技术来研究biogas反应器中的微生物群体，结合多种组学技术来对不能培养的微生物进行基因组拼接及代谢通路分析。
-
-
 
 
 
