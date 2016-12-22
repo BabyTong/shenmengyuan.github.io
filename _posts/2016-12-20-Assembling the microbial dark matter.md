@@ -89,7 +89,6 @@ description:
 
 
 - 宏基因组的适用性和可靠性
-
 糖利用通路，使用宏基因组拼全的206_Thermotogae bin被归到是Defluviitoga tunisiensis L3，该物种已经有参考基因组了，但是把参考基因组和分箱拼全的基因组一比，206_Thermotogae bin包含了几乎多有的糖利用通路模块，只有13个模块缺失。
 
 ![9](http://o7zaxp1i2.bkt.clouddn.com/f529ce03-e462-48cc-9c15-073ceeb38b3c.jpg)
@@ -110,11 +109,9 @@ description:
 - 单细胞测序和宏基因组数据结合，验证宏基因组的拼接结果，此外宏基因组和宏蛋白组的整合，使蛋白分类率显著提升，可以更清晰地阐述代谢活动。
 
 - 古细菌关注点
-
 使用Prokka和BlastKOALA进行基因组和甲烷代谢通路的研究。古细菌群体基因组水平的代谢通路重建。
 
 ### 问题
-
 该论文把所用的软件和数据都集成放在[docker容器](https://hub.docker.com/r/metagenomics/2015-biogas-cebitec/)里了，但是在运行的时候总是掉网，重新连起来后，容器attach不上。不想安装软件~~Ray meta安装不上~
 
 
